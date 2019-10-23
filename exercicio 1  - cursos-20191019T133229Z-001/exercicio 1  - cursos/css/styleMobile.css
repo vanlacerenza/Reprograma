@@ -1,0 +1,230 @@
+*{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    list-style: none;
+}
+ul, li {
+    list-style-type: none;
+}
+nav{
+    display: block;
+    background-color: #9c27b0;
+    text-align: center;
+}
+.nav_logo{
+    width: 55%;
+    height: 80%;
+    align-items: center;
+    padding: 10px;
+}
+.nav_lista{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+/* .container{
+    width: 90%;
+    margin: 0 auto;
+} */
+/* .descricao{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.descricao_foto{
+    width: 80%;
+} */
+.titulos{
+    text-transform: uppercase;
+    color: #8633cb;
+}
+.subtitulos{
+    margin: 10px 3px 0 0;
+    color: #7E459B;
+    font-weight: 100;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.descricao_foto{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+.descricao_foto-img{
+    width: 60%;
+    border-radius: 60%;
+    border: 2px solid black;
+}
+.descricao_texto{
+    margin: 30px 0 auto;
+}
+.cursos_conteudo{
+    width: 70%;
+    background-color: #C199CA;
+    border-radius: 10%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cursos_conteudo-img{
+    width: 50%;
+}
+.footer{
+    display:  block;
+    margin-bottom: 40px;
+}
+.footer_img{
+    width:10%;
+}
+.footer_principal{
+    display: flex;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.footer_principal-img{
+    width: 30%;
+}
+.footer_principal-title{
+    font-size: 2rem;
+    color: #7E459B;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer_secundario{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #7E459B;
+    height: 20%;
+    color: aliceblue;
+}
+
+/* minimo de altura para executar ... */
+
+
+@media (min-width: 900px) {
+    nav { display: flex;
+    }
+    /*body { background-color: yellow; */
+
+    a { text-decoration: none;
+            color: white
+    }
+
+    .descricao {
+        display: flex;
+    }
+    .cursos {
+        display: flex;
+    }
+
+    .btn /*c classe dos botões */ {
+        background-color: #8633cb;
+        border-radius: 10px;
+        padding: 10px; /*aumenta o tamanho do botão */
+        border: none;
+    }
+     
+    .cursos_conteudo {
+        margin-right: 10px;
+        }
+    
+    .footer_principal {
+        display: none; /* ou seja, no desktop nao vai aparecer o futuro é female" */
+    }
+
+    .footer_secundario {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+    nav { 
+        
+        display:flex;
+        background: #CDABD3;
+    }
+
+    .nav_logo {
+             
+        width: 135px;
+        height: 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        margin-top: 12px;
+        margin-left: 4px;
+    
+    }
+    
+    a { text-decoration: none;
+        color: white;
+        height: 36px;
+        top: 32px;
+    
+    }
+
+    .teste {
+        position: relative;
+        text-transform: none;
+        padding: 7px;
+       
+    }
+
+    .nav_lista {
+        margin-top: 10px;
+        font-size: 20px ;    
+    
+    }
+
+    .descricao_foto-img {
+        float: left;
+        width: 190px;
+        margin-right: 20px;
+    }
+
+    .titulos
+
+    { 
+        text-align: center;
+    }
+
+    .subtitulos {
+
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 20x;
+        line-height: 29px;
+        line-height: 18px;
+        color: #7E459B;
+    }
+
+    .btn /*c classe dos botões */ {
+        background-color: #8633cb;
+        border-radius: 10px;
+        padding: 10px; /*aumenta o tamanho do botão */
+        border: none;
+}   
+    .cursos_conteudo {
+        width: 396px;
+        height: 237px;
+        background: rgba(193, 153, 202, 0.82);
+        border-radius: 30p 
+    }
+    .cursos_conteudo-img  {
+        width: 25%;
+        padding-top: -50px;
+    }
+
+    .subtitulos {
+        text-align: justify;
+    }
+}
