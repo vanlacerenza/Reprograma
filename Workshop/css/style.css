@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("../imagens/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem cobre a tela */
+    height: 600px; /* Altura da minha section */
+    display: flex; /* torna os elementos flexiveis */
+    justify-content: center; /* Alinhar os elementos horizontalmente */
+    align-items: center; /* Alinhar os elementos verticalmente */
+    
+}
+
+.texto a:hover { color: purple;
+
+}
+.texto {
+    text-align: center; /* Alinhar texto no centro */
+    
+}
+
+
+.texto h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.texto p {
+    margin-bottom: 70px;
+    color: white;
+    font-size: 25px;
+}
+
+.texto a {
+    background-color: white; /* Coloca cor no fundo */
+    color: #826994; /* Coloquei cor na font */
+    text-decoration: none; /* Tirar a linha debaixo do link */
+    text-transform: uppercase; /* Letras maiusculas */
+    padding: 20px 40px; /* Espacamento, primeiro altura, segundo largura*/
+    border-radius: 30px; /* Deixar bordas arredondadas */
+}
+
+.sobre-mim {
+    
+    display: flex; 
+    justify-content: center;
+    height: 375px; /* Altura da section */
+}
+
+.sobre-mim-descricao {
+    width: 600px; /* Largura da div */
+    padding-right: 60px;
+}
+
+.sobre-mim-descricao h2 {
+    font-size: 30px; /* Tamanho da fonte(letra)*/
+    color: grey; /* Cor da fonte (letra) */
+}
+
+.sobre-mim-descricao a {
+    background-color: white;
+    color: #826994; 
+    border: 1px solid  #826994; /* Borda do botao */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.sobre-mim-lista {
+    margin-top: 70px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais a:hover {
+    color: black;
+}
+
+.rede-social-especifica {
+    background-color: #826994;
+    color: white;
+    padding: 50px 40px; /* Padding espacamento interno, altura e largura */
+    margin: 20px; 
+}
+
+.rede-social-especifica a {
+    color: white;
+    text-decoration: none;
+}
+ 
+footer {
+    background-color: #dcdcdc;
+    text-align: center; /* Alinhar texto ao centro */
+    padding: 20px; /* Espacamento interno */
+    margin-top: 35px; /* Espacamento acima do rodape */
+}

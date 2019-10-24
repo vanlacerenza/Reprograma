@@ -112,3 +112,20 @@ footer{
     padding: 10px;
 
 }
+
+@media (min-width: 360px) and (max-width: 640px) {
+
+    li {
+        display: inline-flex;
+        margin: 10px;
+        justify-content: right;
+        padding-right: -120px;
+    }
+
+    ul { display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-transform: uppercase;
+        
+}
+}
