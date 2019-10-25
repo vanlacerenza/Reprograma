@@ -1,0 +1,6 @@
+- Transformar para mobile
+- Utilizar o figma como apoio
+- Trocar a seção de meus projetos para um bloco embaixo do outro
+- Trocar o entre em contato para um embaixo do outro
+- Alterar para o nome de vocês
+- Customizar com o gosto de voces

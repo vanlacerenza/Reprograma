@@ -111,21 +111,105 @@ footer{
     font-size: 1.2rem;
     padding: 10px;
 
-}
+} 
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
-    li {
-        display: inline-flex;
-        margin: 10px;
-        justify-content: right;
-        padding-right: -120px;
-    }
 
-    ul { display: flex;
-        align-items: center;
-        justify-content: space-around;
-        text-transform: uppercase;
+    nav { 
+                
+        display:flex;
         
 }
+    .teste {
+        position: relative;
+        text-transform: none;
+        padding: 4px;
+    
+    }
+
+    .nav_lista {
+        margin-top: 5px;
+        padding-left: 124px;
+        width: 280px;
+
+    }
+
+    .nav_lista li {
+        margin-right: 40px;
+        padding-right: -100px;
+        margin-bottom: 10px;
+        text-transform: none;
+        font-size: 14px;
+    }
+
+    .banner_title {
+        text-align: left;
+        margin-top: -120px;
+        margin-left: 70px;
+        font-size: 40px;
+    }
+
+    .projetos_site{
+        display: block;
+    } 
+
+    .projetos_title,  .titles
+    {
+        color: #B3B2B2;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .site_title {
+        color: black;
+        width: 90%;
+        margin-top: 20px;
+        margin: 10px;
+        text-align: justify;
+        letter-spacing: 0,3px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .site_img {
+        width: 280px;
+
+    }
+    .btn{
+
+        background-color: #8633cb;
+        border-radius: 10px;
+        padding: 10px; /*aumenta o tamanho do botão */
+        border: none;
+        align-content: center;
+        margin-left: 80px;
+        width: 120px;
+        text-align: center;
+            
+    }
+
+    .btn_link{
+        color:white ;
+        
+    }
+
+    .contato_icons {
+        display: block;
+        height: 20px;
+        justify-content: center;
+    }
+    .contato_img{
+        width: 10%;    
+    }
+    .contato_img-icon{
+        width: 10%;
+        display: block;
+        align-items: center;
+        padding-left: 130px;
+        margin: 5px;
+        
+    }
 }
