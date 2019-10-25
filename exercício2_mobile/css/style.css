@@ -113,7 +113,7 @@ footer{
 
 } 
 
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 420px) {
 
 
     nav { 
@@ -130,14 +130,14 @@ footer{
 
     .nav_lista {
         margin-top: 5px;
-        padding-left: 124px;
+        padding-left: 106px;
         width: 280px;
 
     }
 
     .nav_lista li {
-        margin-right: 40px;
-        padding-right: -100px;
+        margin-right: 20px;
+        padding-right: -90px;
         margin-bottom: 10px;
         text-transform: none;
         font-size: 14px;
